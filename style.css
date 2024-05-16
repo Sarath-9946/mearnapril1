@@ -1,0 +1,196 @@
+* {
+    margin: 0x;
+    padding: 0px;
+}
+
+
+#logo {
+    width: 150px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* view port height, 1 vh = 1% of the height
+    vh refers to the the visible portion of the browser window */
+    /* height:100% mean: 100 percentage of the conatining element */
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 125px;
+    align-items: center;
+    /* to vertically align items center */
+
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    /* to place li elements in same line */
+    margin: 10px 26px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 800;
+    color: black;
+}
+
+.link:hover {
+    color: rgb(29, 218, 117);
+}
+
+.title {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.title h1 {
+    font-size: 62px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#lastname {
+    color: rgb(85, 3, 87);
+}
+
+.title p {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.title a {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.gavi
+{
+    margin-top: 30PX;
+    height: 400PX;
+    width: 400px;
+    background-color: rgb(95, 11, 81);
+    padding: 10px;
+    margin-left: 150px;
+    
+}
+#gavi1
+{
+    color: azure;
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#gavi2
+{
+    color: beige;
+}
+.adavi
+{
+
+    margin-top: 30PX;
+    height: 400PX;
+    width: 400px;
+    background-color: rgb(95, 11, 81);
+    padding: 10px;
+    margin-left: 550px;
+    
+}
+#ente
+{
+    color: rgb(88, 196, 88);
+}
+#welcome
+{
+    color: rgb(92, 31, 9);
+}
+.perum
+{
+    margin-top: 30PX;
+    height: 400PX;
+    width: 400px;
+    background-color: rgb(95, 11, 81);
+    padding: 10px;
+    margin-left: 150px; 
+}
+
+#contact {
+    margin: 8% 8% 0px 8%;
+}
+
+.icon-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.icon,
+.up_arrow {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.icon i {
+    font-size: 35px;
+    color: black;
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right, rgb(166, 31, 157), rgb(28, 192, 28));
+}
+
+.icon:hover i {
+    color: rgb(241, 243, 241);
+    animation:shake 0.75s;
+}
+
+footer {
+    margin: 3rem 0px opx;
+
+
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.up_arrow {
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: black;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#con
+{
+    text-align: center;
+    color: rgb(59, 6, 71);
+}
+#my
+{
+    text-align: center;
+    color: rgb(13, 114, 13);
+}
